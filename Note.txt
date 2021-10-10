@@ -1,0 +1,114 @@
+- npm install: tạo lại thư mục node_modules
+- npm start: khởi chạy project
+
+- Baitap1Component
+    - Header
+    - Content 
+    - Sidebar 
+    - Footer
+
+- Baitap2Component
+    - Header
+    - Carousel 
+    - WWD
+    - Contact 
+    - ListCard
+        - Card
+        - Card
+        - Card
+    - Footer
+
+link repo: https://github.com/dpnguyen53/bc14reactjs
+===== Buổi 1 =====
+    - Component jsx
+        + Stateful Component: class 
+        + Stateless Component: function
+
+
+===== Buổi 2 ======
+* Rendering Elements: {}
+* Handling Events:  onClick
+* State: nếu như state thay đổi => component sẽ render lại
+* List keys: duyệt mảng
+
+===== Buổi 3 ======
+* Communication
+    - Props: Truyền dữ liệu từ component cha => component con
+        + class: Nhận props thông qua từ khoá this => this.props
+        + function: Nhận props thông qua tham số của function(props)
+        + children: Nhận tất cả những gì từ component cha truyền qua
+    - Lifting State Up: Truyền dữ liệu từ component con => component cha
+        Component cha truyền vào component con 1 props 
+        => props này mang giá trị là 1 functuon (hàm này giúp component cha nhận dc dữ liệu từ component con)
+
+
+===== Buổi 4 ======
+* Shopping cart
+* Usermanagement
+
+===== Buổi 5 ======
+* Usermanagement
+* Form
+* Lifecycle: componentWillReceiveProps
+
+===== Buổi 6 ======
+* Redux
+    - npm install redux react-redux --save 
+
+===== Buổi 7 ======
+* Redux
+* Lifecycle
+
+===== Buổi 8 ======
+* Lifecycle
+* Form Validation
+* Install bootstrap
+
+===== Buổi 9 ======
+npm install react-router-dom --save
+* Routing (basic)
+    - Homepage
+    - About
+    - ListMovie
+
+* Axios
+
+===== Buổi 10 ======
+* Redux thunk <=> redux saga
+* Detail Movie
+* Get Params From URL
+
+======== Buổi 11 ======
+* Routing (HomeTemplate & Admin Template)
+* HOC (Higher order component)
+    - Khai báo component theo dạng Stateless (function).
+    - return về 1 component (class/function)
+* Render Props (Adv): Tái sử dụng
+* Routing (Adv)
+
+======== Buổi 12 ======
+* Hooks
+
+======== Buổi 13 ======
+* Auth
+* Guard Routing Admin
+
+======== Buổi 14 ======
+* Add user(Token)
+* Material UI
+* Styledd Component
+
+======== Buổi 15 ======
+* Refactor code call api
+    - Flow login Auth
+        + dispatch actAuthSuccess
+        + timeout exp
+
+* Flow reload web (actTryLogin)
+        + timeout exp
+        + dispatch actAuthSuccess
+        
+* Logout
+    - remove accessToken
+    - redirect /auth
+    - clear reducer Auth
